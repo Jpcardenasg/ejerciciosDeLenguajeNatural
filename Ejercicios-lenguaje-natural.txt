@@ -1,0 +1,158 @@
+Nombre Algoritmo: Hora Futura
+Entrada1: hora actual (en horas)
+Entrada2: cantidad de horas
+Salida: hora que marcará el reloj dentro de la cantidad de horas
+
+Pasos:
+ 
+ 1. Lee la hora actual 
+ 2. Lee el número de horas
+ 3. Sumo a la hora actual la cantidad de horas ingresadas
+ 4. El resultado obtenido en el paso anterior lo divido entre 24
+ 5. El resultado entero del paso anterior lo multiplico por el número 24
+ 6. Al resultado del paso 3 le resto el resultado del paso 5
+ 7. Muestro la hora que marcará le reloj en la cantidad de horas dichas
+ 
+
+
+Nombre Algoritmo: Qué nota necesito
+Entrada1: Nota certamen 1
+Entrada2: Nota certamen 2
+Entrada3: Nota laboratorio
+Entrada4: Nota final
+Salida: Nota certamen 3 que necesita para que la nota final sea 60
+
+Pasos:
+ 
+ 1. Lee la nota certamen 1 
+ 2. Lee la nota certamen 2
+ 3. Lee la nota laboratorio
+ 4. Lee la nota final
+ 5. La nota del certamen total está definida por el promedio las 3 notas certamen
+ 6. La nota final es el resultado de la suma del 70% de nota certamen mas el 30% de la nota laboratorio
+ 7. Despejando la fórmula del paso anterior tenemos que la nota certamen es igual a la nota final menos el 30% de la nota laboratorio divido entre 0.7
+ 8. Igualando las formulas del paso 7 y 5
+ 9. Despejamos la nota certamen 3 de la formula anterior
+ 10. La nota certamen 3 es igual a la formula del paso 7 multiplicada por 3 y la resta de las notas certamen 1 y 2
+ 11. Si la nota certamen 3 es mayor a 100 entonces quiere decir que no es posible aprobar el ramo
+ 12. Mostrar el valor de la nota certamen 3
+ 
+ 
+ 
+Nombre Algoritmo: Número invertido
+Entrada1: Entero de 3 dígitos
+Salida: Número con el orden inverso
+
+Pasos:
+ 
+ 1. Lee el entero de 3 dígitos
+ 2. Valida si el número digitado es de 3 cifras de lo contrario pedir el número de nuevo
+ 3. Sacar el módulo del número al dividir por 10, esto nos dará el último número que son las unidades
+ 4. Para obtener las decenas dividimos el número entre 10, tomamos la parte entera y a ese resultado sacar el módulo al dividir por 10
+ 5. Para sacar las centenas dividimos el número entre 100 y solo tomamos la parte entera
+ 6. Unir los números en el orden invertido unidades,decenas, centenas
+ 6. Muestra el número invertido
+ 
+ 
+ 
+Nombre Algoritmo: Años bisiestos
+Entrada1: Año a evaluar
+Salida: El año es bisiesto o no 
+
+Pasos:
+ 
+ 1. Lee el año
+ 2. Si el año es menor a 1582 dividir el año entre 4, si el módulo es cero entonces el año es bisiesto
+ 3. Si el año es mayor a 1582 y es el último año del siglo, entonces, dividir el año entre 400, si no dividir entre 4
+ 4. Si el módulo de la operación anterior es cero, entonces, mostrar mensaje que el año es bisiesto
+ 5. Si el módulo es diferente de cero, entonces, mostrar mensaje el año no es bisiesto
+ 
+
+
+Nombre Algoritmo: Edad
+Entrada1: Día
+Entrada2: Mes
+Entrada3: Año
+Salida: Edad del usuario
+
+Pasos:
+ 
+ 1. Lee los valores ingresados para día, mes y año
+ 2. Restar el año de nacimiento al año actual
+ 3. Restar el mes de nacimiento al mes actual
+ 4. Si el resultado del paso anterior es negativo restamos 1 al resultado del paso 2 y muestro el resultado
+ 5. Si el resultado del paso 3 es mayor que cero entonces muestro la edad del resultado del paso 2
+ 6. Si el resultado del paso 3 es igual a cero entonces resto el día de nacimiento al día actual, si
+    este resultado es negativo, resto el valor de 1 al resultado del paso 2 y muestro el resultado
+ 7. Si el resultado del paso 6 es positivo muestro el resultado del paso 2 como la edad del usuario
+
+
+
+Nombre Algoritmo: Determinar par
+Entrada1: Número entero
+Salida: El número es par o el número es impar
+
+Pasos:
+ 
+ 1. Lee el número entero ingresado
+ 2. Divir el número entero por 2 y sacar el módulo
+ 3. Si el módulo de la división es 0, entonces, mostrar el número es par
+ 4. Si no el número es impar
+
+
+
+Nombre Algoritmo: Tiempo de viaje
+Entrada1: Duración del tramo
+Salida: Tiempo total de viaje
+
+Pasos:
+
+ 1. Leer duración del tramo
+ 2. Si la duración del tramo mayor que cero pedir siguiente duración del tramo, sino dejar de pedir tiempo de viaje
+ 3. Sumar los tramos ingresados
+ 4. Dividir el resultado anterior entre 60 y tomar el valor entero de la división, esto nos dará las horas
+ 5. Multiplicar el resultado del paso anterior por  60 y restarlo al resultado del paso 3, esto nos dará los minutos
+ 6. Mostrar el tiempo total de viaje con las horas del paso 4 y los minutos del paso 5
+
+
+
+Nombre Algoritmo: Parte decimal
+Entrada1: Número real
+Salida: Parte decimal del número real ingresado
+
+Pasos: 
+ 
+ 1. Leer el número ingresado
+ 2. Si el número es mayor o igual a 0 entonces restar las unidades del número a sí mismo y mostrar el resultado
+ 3. Si el número ingresado es menor que cero sumar las unidades del número a sí mismo y mostrar el resultado
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
